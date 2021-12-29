@@ -1,0 +1,22 @@
+localisation:
+  loc_doubleDC: §cYou can't put a chest next to a Deadchest
+  loc_noDCG: §cNo deadchest generated.
+  loc_noperm: §cYou need permission
+  loc_dclistall: §aList of all dead chests
+  loc_dclistown: §aList of your dead chests
+  loc_not_owner: §cThis is not your Deadchest !
+  loc_infinityChest: Infinity chest
+  loc_dcgbsuccess: §aThe oldest deadchest content of this player returned to him
+  loc_endtimer: left
+  loc_reload: §6Reload successfull..
+  loc_nodc: §aYou don't have any deadchest
+  loc_prefix: ''
+  loc_maxHeight: §cYou are dead above the maximum height.
+  loc_givebackInfo: §cThis player is offline or don't have any active deadchest
+  holo_timer: §f%hours%§7:§f%min%§7:§f%sec%§7
+  loc_chestPos: §6Your deadchest is at
+  loc_noPermsToGet: §cYou are not allowed to open this chest
+  holo_loading: Loading...
+  loc_gbplayer: §aYou have retrieved the content of your deadchest
+  holo_owner: Deadchest of §6%player%
+  loc_nodcs: §aThere is currently no deadchest

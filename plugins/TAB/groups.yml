@@ -1,0 +1,19 @@
+Owner:
+  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+  tagprefix: "&2&lOwner &a"
+Admin:
+  tabprefix: "&0&l[&4&lAdmin&0&l] &1"
+  tagprefix: "&4&lAdmin &a"
+Player:
+  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%"
+  tabsuffix: "%vault-suffix%%afk%"
+  tagsuffix: "%vault-suffix%%afk%"
+
+per-world:

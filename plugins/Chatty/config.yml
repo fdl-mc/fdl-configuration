@@ -1,0 +1,101 @@
+config-version: '2.0'
+
+chats:
+  local:
+    enable: true
+    display-name: 'Local'
+    format: '&r{prefix}&7{player}&r{suffix} &8› &r{message}'
+    range: 100
+
+  global:
+    enable: true
+    display-name: 'Global'
+    format: '&r[FDL]&r {prefix}&7{player}&r{suffix} &8› &r{message}'
+    range: -1
+    symbol: '!'
+    spy: false
+
+pm:
+  enable: true
+  allow-console: true
+  allow-pm-vanished: true
+  format:
+    recipient: '&7{sender-name} &8› &7{recipient-name}: &f{message}'
+    sender: '&7{sender-name} &8› &7{recipient-name}: &f{message}'
+
+  commands:
+    msg:
+      enable: true
+      aliases: [ 'message', 'pm', 'm', 'whisper', 'w', 'tell', 't' ]
+
+    reply:
+      enable: true
+      aliases: [ 'reply' ]
+
+    ignore:
+      enable: true
+      aliases: [ ]
+
+spy:
+  enable: true
+  format:
+    chat: '&6[Spy] &r{format}'
+    pm: '&6[Spy] &r{format}'
+
+notifications:
+  chat:
+    enable: false
+  actionbar:
+    enable: false
+  title:
+    enable: false
+  advancements:
+    enable: false
+
+moderation:
+  caps:
+    enable: false
+  advertisement:
+    enable: false
+  swear:
+    enable: false
+
+miscellaneous:
+  commands:
+    chat:
+      enable: false
+    clearchat:
+      enable: false
+    prefix:
+      enable: true
+      after-prefix: ' '
+      length-limit:
+        min: 1
+        max: 16
+      auto-nte: false
+    suffix:
+      enable: true
+      before-suffix: ' '
+      length-limit:
+        min: 1
+        max: 16
+      auto-nte: false
+
+  vanilla:
+    join:
+      enable: true
+      message: '&e{prefix}{player}{suffix} &ejoined the server.'
+      sound: ORB_PICKUP
+      permission: false
+      first-join:
+        message: '&e{prefix}{player}{suffix} &6joined the server for the first time!'
+        sound: ORB_PICKUP
+
+    quit:
+      enable: true
+      message: '&e{prefix}{player}{suffix} &eleft the server.'
+      sound: ORB_PICKUP
+      permission: false
+
+    death:
+      enable: false

@@ -1,0 +1,83 @@
+render-in-progress: <red>A render is already in progress on <world>
+render-not-in-progress: <red>No renders running for <world>
+cancelled-render: <green>Render cancelled for <world>
+successfully-reset-map: <green>Successfully reset map for <world>
+paused-renders: <green>Paused renders for <world>
+unpaused-renders: <green>Unpaused renders for <world>
+command:
+  message:
+    console-must-specify-player: <red>You must specify a target player when running
+      this command from console
+    player-not-found-for-input: <red>No player found for input '<input>'
+    console-must-specify-world: <red>You must specify the world when running this
+      command from console
+    no-such-world: <red>No such world '<world>'
+    map-not-enabled-for-world: <red>Map is not enabled for world '<world>'
+    confirmation-required: <red>Confirmation required. Confirm using /<command> confirm.
+    no-pending-commands: <red>You don't have any pending commands.
+  prefix: '<white>[<gradient:#C028FF:#5B00FF>Pl3xMap</gradient>]</white> '
+  description:
+    help: Get help for Pl3xmap commands
+    resetmap: Resets the map of a specified world
+    confirm: Confirm a pending command
+    reload: Reloads the plugin
+    full-render: Starts a full render for the specified world
+    cancel-render: Cancels a render for the specified world
+    pause-render: Pauses all renders for the specified world
+    radius-render: Starts a radius render
+    hide: Hide a player from the map view
+    show: Show a player on the map view
+  argument:
+    optional-world: Defaults to the players current world if not provided
+    optional-center: Defaults to (<white>0<gray>,</gray> 0</white>) if unspecified
+    optional-player: Defaults to the executing player if unspecified (console must
+      specify a player)
+    help-query: Help Query
+  hide:
+    already-hidden: <red><player> is already hidden from map
+    hidden: <green><player> is now hidden from map
+  show:
+    not-hidden: <red><player> is not hidden from map
+    shown: <green><player> is no longer hidden from map
+click-for-help: Click for help
+click-to-confirm: Click to confirm
+ui:
+  page-title: Pl3xMap - {world}
+  coordinates: Coordinates<br/>{x}, {z}
+  sidebar:
+    player-list: Players ({cur}/{max})
+    world-list: Worlds
+  layers:
+    player-tracker: Players
+    world-spawn: Spawn
+    world-border: World Border
+plugin-reloaded: <green><name> v<version> reloaded
+log:
+  prefix: <dark_aqua>[<light_purple>Pl3xMap</light_purple>]</dark_aqua>
+  started-full-render: <dark_aqua>Started full map render for <yellow><world>
+  started-radius-render: <dark_aqua>Started radius map render for <yellow><world>
+  scanning-region-files: <yellow>Scanning region files... (this may take a moment)
+  found-total-region-files: <green>Found <gray><total> <green>region files
+  finished-rendering: <dark_aqua>Finished rendering map for <yellow><world>
+  cancelled-rendering: <dark_aqua>Rendering map for <yellow><world> <dark_aqua>has
+    been interrupted
+  resumed-rendering: <dark_aqua>Rendering map for <yellow><world> <dark_aqua>has been
+    resumed
+  scanning-region-progress: <gray>(</gray><yellow><percent></yellow><gray>)</gray>
+    <dark_aqua>World<gray>:</gray> <yellow><world></yellow> Chunks<gray>:</gray> <yellow><current_chunks></yellow><gray>/</gray><yellow><total_chunks></yellow>
+    Elapsed<gray>:</gray> <yellow><elapsed></yellow> ETA<gray>:</gray> <yellow><eta></yellow>
+    Rate<gray>:</gray> <yellow><rate></yellow> cps
+  scanning-region-progress-with-regions: <gray>(</gray><yellow><percent></yellow><gray>)</gray>
+    <dark_aqua>World<gray>:</gray> <yellow><world></yellow> Regions<gray>:</gray>
+    <yellow><current_regions></yellow><gray>/</gray><yellow><total_regions></yellow>
+    Chunks<gray>:</gray> <yellow><current_chunks></yellow><gray>/</gray><yellow><total_chunks></yellow>
+    Elapsed<gray>:</gray> <yellow><elapsed></yellow> ETA<gray>:</gray> <yellow><eta></yellow>
+    Rate<gray>:</gray> <yellow><rate></yellow> cps
+  internal-web-disabled: <green>Internal webserver is disabled in config.yml
+  internal-web-started: <green>Internal webserver running on <bind>:<port>
+  internal-web-stopped: <green>Internal webserver stopped
+  internal-web-start-error: Internal webserver could not start
+  could-not-create-directory: Could not create directory! {path}
+  could-not-save-region: Could not save map for region {x},{z}
+  internal-web-not-running: An error occurred with the internal webserver
+  corrupted-tile: Corrupted PNG {png} metadata found, file will be regenerated

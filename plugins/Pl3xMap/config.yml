@@ -1,0 +1,89 @@
+settings:
+  commands:
+    main-command-label: pl3xmap
+    main-command-aliases:
+    - map
+  language-file: lang-en.yml
+  debug-mode: false
+  web-address: http://0.0.0.0:5555
+  web-directory:
+    path: web
+    auto-update: true
+  image-quality:
+    compress-images: 0.0
+  internal-webserver:
+    enabled: true
+    bind: 0.0.0.0
+    port: 5555
+  ui:
+    coordinates:
+      enabled: true
+    link:
+      enabled: false
+    sidebar:
+      pinned: pinned
+world-settings:
+  default:
+    map:
+      enabled: true
+      display-name: '{world}'
+      order: 0
+      icon: ''
+      max-render-threads: -1
+      iterate-up: false
+      max-height: -1
+      min-height: -64
+      render-progress-interval: 1
+      lava:
+        checkerboard: true
+      biomes:
+        enabled: true
+        blend-biomes: 4
+      glass:
+        clear: true
+      water:
+        clear-depth: true
+        checkerboard: false
+      zoom:
+        maximum: 3
+        default: 3
+        extra: 2
+      background-render:
+        enabled: true
+        max-chunks-per-interval: 1024
+        interval-seconds: 15
+        max-render-threads: -1
+      markers:
+        update-interval-seconds: 5
+        spawn-icon:
+          enabled: true
+          show-controls: true
+          default-hidden: false
+          layer-priority: 0
+          z-index: 0
+        world-border:
+          enabled: true
+          show-controls: true
+          default-hidden: false
+          layer-priority: 1
+          z-index: 1
+      visibility-limits:
+      - type: world-border
+        enabled: false
+    player-tracker:
+      enabled: true
+      update-interval-seconds: 1
+      show-controls: true
+      default-hidden: false
+      layer-priority: 2
+      z-index: 2
+      nameplate:
+        enabled: true
+        show-head: true
+        heads-url: https://mc-heads.net/avatar/{uuid}/16
+        show-armor: true
+        show-health: true
+      hide:
+        invisible: true
+        spectators: true
+config-version: 1

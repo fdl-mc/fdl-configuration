@@ -1,0 +1,51 @@
+donation-key: 
+
+use-mysql: false
+table-prefix: co_
+mysql-host: 127.0.0.1
+mysql-port: 3306
+mysql-database: database
+mysql-username: root
+mysql-password: 
+
+language: en
+check-updates: true
+api-enabled: true
+verbose: true
+
+default-radius: 10
+max-radius: 100
+
+rollback-items: true
+rollback-entities: true
+skip-generic-data: true
+block-place: true
+block-break: true
+natural-break: true
+block-movement: true
+pistons: true
+block-burn: true
+block-ignite: true
+explosions: true
+entity-change: true
+entity-kills: true
+sign-text: true
+buckets: true
+leaf-decay: true
+tree-growth: true
+mushroom-growth: true
+vine-growth: true
+portals: true
+water-flow: true
+lava-flow: true
+liquid-tracking: true
+item-transactions: true
+item-drops: true
+item-pickups: true
+hopper-transactions: true
+player-interactions: true
+player-messages: true
+player-commands: true
+player-sessions: true
+username-changes: true
+worldedit: true

@@ -1,0 +1,26 @@
+anti-bot:
+  connections: 600
+  expire: 10
+
+autoRegister: true
+respectIpLimit: false
+secondAttemptCracked: false
+switchMode: false
+premiumUuid: false
+nameChangeCheck: false
+forwardSkin: true
+premium-warning: true
+ip-addresses: []
+mojang-request-limit: 600
+auto-register-unknown: true
+autoLogin: true
+
+autoLoginFloodgate: false
+allowFloodgateNameConflict: false
+autoRegisterFloodgate: false
+floodgatePrefixWorkaround: false
+
+driver: 'org.sqlite.JDBC'
+database: '{pluginDir}/FastLogin.db'
+
+proxies:

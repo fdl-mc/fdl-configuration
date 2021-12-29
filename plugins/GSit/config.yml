@@ -1,0 +1,54 @@
+Lang:
+  lang: en_en
+
+
+
+Options:
+  check-for-update: true
+  check-feature-permissions: true
+  get-up-damage: false
+  get-up-sneak: true
+  rest-same-block: false
+
+  Sit:
+    block-center: true
+    SitMaterials:
+      - "#STAIRS"
+      - "#SLABS"
+      - "#CARPETS"
+      - "MOSS_CARPET"
+      - "BIG_DRIPLEAF"
+      - "SNOW"
+
+    allow-unsafe: false
+    get-up-return: false
+    empty-hand-only: true
+    max-distance: 0.00
+    show-sit-message: false
+    default-sit-mode: true
+
+  PlayerSit:
+    use-playersit: true # ну а хуле)
+    use-playersit-npc: false
+    max-stack: 0
+    sneak-ejects: true
+    empty-hand-only: true
+    show-sit-message: true
+    default-sit-mode: true
+
+  Pose:
+    block-center: true
+    show-pose-message: false
+    interact: false
+    lay-reset-time-since-rest: true
+    lay-snoring-sounds: true
+    lay-snoring-night-only: true
+    lay-night-skip: false
+
+  Crawl:
+    get-up-sneak: true
+
+  rest-team-plots-only: false
+  WorldBlacklist: []
+  MaterialBlacklist: []
+  CommandBlacklist: []

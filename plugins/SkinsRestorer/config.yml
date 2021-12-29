@@ -1,0 +1,60 @@
+SkinWithoutPerm: true
+SkinChangeCooldown: 30
+SkinErrorCooldown: 5
+
+EnableCustomHelp: false
+DisablePrefix: true
+DefaultSkins:
+  Enabled: false
+  ApplyForPremium: false
+  Names:
+DisabledSkins:
+  Enabled: false
+  Names:
+CustomGUI:
+  Enabled: false
+  ShowOnlyCustomGUI: true
+  Names:
+
+PerSkinPermissions: false
+SkinExpiresAfter: 15
+MultiBungee:
+  Enabled: false
+
+MySQL:
+  Enabled: false
+  Host: localhost
+  Port: 3306
+  Database: db
+  Username: root
+  Password: pass
+  SkinTable: 'Skins'
+  PlayerTable: 'Players'
+  ConnectionOptions: verifyServerCertificate=false&useSSL=false&serverTimezone=UTC
+
+NoSkinIfLoginCanceled: true
+
+RestrictSkinUrls:
+  Enabled: false
+  List:
+    - https://i.imgur.com
+    - http://i.imgur.com
+    - https://storage.googleapis.com
+    - http://storage.googleapis.com
+    - https://cdn.discordapp.com
+    - http://cdn.discordapp.com
+    - https://textures.minecraft.net
+    - http://textures.minecraft.net
+
+MineskinAPIKey: "key"
+
+DismountPlayerOnSkinUpdate: true
+RemountPlayerOnSkinUpdate: true
+DismountPassengersOnSkinUpdate: false
+
+DisableOnJoinSkins: false
+DisallowAutoUpdateSkin: false
+EnableProtocolListener: false
+
+Updater:
+Debug: false

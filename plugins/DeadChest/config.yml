@@ -1,0 +1,86 @@
+#
+# PLEASE RELOAD OR RESTART SERVER AFTER A CHANGE IN THIS FILE. YOU CAN ALSO USE /dc reload
+# More information on plugin page : https://dev.bukkit.org/projects/dead-chest
+# Any trouble to use this file ? Ask help on Discord : https://discordapp.com/invite/jCsvJxS
+#
+
+# true  : Only the owner of the inventory can open the deadchest
+# false : Everybody can open dead chest of everybody
+OnlyOwnerCanOpenDeadChest: true
+
+# Duration of deadchest in seconds before it disappears ( 0 = infiny chest)
+DeadChestDuration: 300
+
+# true  : Nothing can destroy a dead chest until a player get back inventory or DeadChestDuration is over.
+# false : Dead chest can be destroyable by players or explosions
+IndestuctibleChest: true
+
+# Maximum number of deadchest per player (0 = infiny)
+maxDeadChestPerPlayer: 15
+
+# Log a message in the console when a player die with the coordinate of the deadchest
+logDeadChestOnConsole: false
+
+# Players need permission deadchest.generate to generate deadchest on death ?
+# false : no permission needed
+# true : permission needed
+RequirePermissionToGenerate: false
+
+# Players need permission deadchest.get to get his deadchest ?
+# false : no permission needed
+# true : permission needed
+RequirePermissionToGetChest: false
+
+# Players need permission deadchest.list.own to use /dc list (list all deadchests of the player) ?
+# false : no permission needed
+# true : permission needed
+RequirePermissionToListOwn: false
+
+# Remove all existing deadchests on startup
+AutoCleanupOnStart: false
+
+# Player in creative mode generate deadchest
+GenerateDeadChestInCreative: true
+
+# Display deadchest position for the player on death in the chat
+DisplayDeadChestPositionOnDeath: true
+
+# How a deadchest returns items to players
+# 1 : Items are pushed directly to inventory. If inventory is full, items are dropped on the ground.
+# 2 : Items are dropped on the ground
+DropMode: 1
+
+# Wich block is used to generate the deadchest
+# 1 : CHEST
+# 2 : PLAYER HEAD
+# 3 : BARREL
+# 4 : SHULKER BOX
+# 5 : ENDER CHEST
+DropBlock: 1
+
+# Items drop after timeout
+# false : Items are removed when timer is over
+# true : Items are dropped when timer is over
+ItemsDroppedAfterTimeOut: false
+
+# DeadChest generation option
+GenerateOnLava: true
+GenerateOnWater: true
+GenerateOnRails: true
+GenerateInMinecart: true
+
+# Worldguard securities to allow/denied deadchest spawning in regions
+# false : No worldguard detection
+# true : Deadchest will check if the player can generate deadchest where he dies
+EnableWorldGuardDetection: false
+
+# List of excluded worlds
+ExcludedWorld:
+  - MyWorldWithoutDeadChest
+  - AnotherExampleOfWorldWithoutDeadChest
+
+# List of excluded items
+# Be sure to put here the ItemStack name of the entity you want to exclude
+ExcludedItems:
+  - ITEM_TO_EXCLUDE_EXAMPLE
+  - HEROBRINE

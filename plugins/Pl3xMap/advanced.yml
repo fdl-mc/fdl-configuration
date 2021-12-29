@@ -1,0 +1,84 @@
+settings:
+  event-listeners:
+    BlockPlaceEvent: true
+    BlockBreakEvent: true
+    LeavesDecayEvent: true
+    BlockBurnEvent: true
+    BlockExplodeEvent: true
+    BlockGrowEvent: true
+    BlockFormEvent: true
+    EntityBlockFormEvent: true
+    BlockSpreadEvent: true
+    FluidLevelChangeEvent: true
+    EntityExplodeEvent: true
+    EntityChangeBlockEvent: true
+    StructureGrowEvent: true
+    ChunkPopulateEvent: true
+    BlockFromToEvent: false
+    PlayerJoinEvent: false
+    PlayerQuitEvent: false
+    PlayerMoveEvent: false
+    BlockPhysicsEvent: false
+    BlockPistonExtendEvent: false
+    BlockPistonRetractEvent: false
+    ChunkLoadEvent: false
+world-settings:
+  default:
+    iterate-up-base-blocks:
+    - minecraft:netherrack
+    - minecraft:glowstone
+    - minecraft:soul_sand
+    - minecraft:soul_soil
+    - minecraft:gravel
+    - minecraft:warped_nylium
+    - minecraft:crimson_nylium
+    - minecraft:nether_gold_ore
+    - minecraft:ancient_debris
+    - minecraft:nether_quartz_ore
+    - minecraft:magma_block
+    - minecraft:basalt
+    invisible-blocks:
+    - minecraft:tall_grass
+    - minecraft:fern
+    - minecraft:grass
+    - minecraft:large_fern
+    color-overrides:
+      biomes:
+        foliage:
+          minecraft:jungle_edge: '#1f8907'
+          minecraft:dark_forest: '#1c7b07'
+          minecraft:jungle: '#1f8907'
+          minecraft:jungle_hills: '#1f8907'
+          minecraft:bamboo_jungle_hills: '#1f8907'
+          minecraft:bamboo_jungle: '#1f8907'
+          minecraft:dark_forest_hills: '#1c7b07'
+        grass: {}
+        water: {}
+      blocks:
+        minecraft:dandelion: '#FFEC4F'
+        minecraft:oxeye_daisy: '#D6E8E8'
+        minecraft:lily_pad: '#208030'
+        minecraft:mycelium: '#6F6265'
+        minecraft:allium: '#B878ED'
+        minecraft:red_tulip: '#9B221A'
+        minecraft:lava: '#EA5C0F'
+        minecraft:blue_orchid: '#2ABFFD'
+        minecraft:sunflower: '#FFEC4F'
+        minecraft:wither_rose: '#211A16'
+        minecraft:white_tulip: '#D6E8E8'
+        minecraft:poppy: '#ED302C'
+        minecraft:lily_of_the_valley: '#FFFFFF'
+        minecraft:azure_bluet: '#F7F7F7'
+        minecraft:cornflower: '#466AEB'
+        minecraft:lilac: '#B66BB2'
+        minecraft:spruce_leaves: '#619961'
+        minecraft:rose_bush: '#9B221A'
+        minecraft:peony: '#EBC5FD'
+        minecraft:birch_leaves: '#80A755'
+        minecraft:orange_tulip: '#BD6A22'
+        minecraft:attached_pumpkin_stem: '#E0C71C'
+        minecraft:terracotta: '#9E6246'
+        minecraft:pink_tulip: '#EBC5FD'
+        minecraft:attached_melon_stem: '#E0C71C'
+        minecraft:glass: '#FFFFFF'
+config-version: 1
