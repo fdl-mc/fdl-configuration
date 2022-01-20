@@ -11,7 +11,7 @@ chats:
     enable: true
     display-name: 'Global'
     format: '&r[FDL]&r {prefix}&7{player}&r{suffix} &8› &r{message}'
-    range: -1
+    range: -2
     symbol: '!'
     spy: false
 
