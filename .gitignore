@@ -1,0 +1,14 @@
+*
+
+!plugins/
+!bukkit.yml
+!paper.yml
+!purpur.yml
+!server.properties
+!spigot.yml
+!start.sh
+!plugins.txt
+!setup.py
+!.gitignore
+
+*.jar
