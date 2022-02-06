@@ -12,3 +12,6 @@
 !.gitignore
 
 *.jar
+*.db
+*.log
+plugins/Pl3xMap/data
