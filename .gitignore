@@ -1,0 +1,17 @@
+*
+
+!plugins/
+!bukkit.yml
+!paper.yml
+!purpur.yml
+!server.properties
+!spigot.yml
+!start.sh
+!plugins.txt
+!setup.sh
+!.gitignore
+
+*.jar
+*.db
+*.log
+plugins/Pl3xMap/data
