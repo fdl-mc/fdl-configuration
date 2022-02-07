@@ -8,7 +8,7 @@
 !spigot.yml
 !start.sh
 !plugins.txt
-!setup.py
+!setup.sh
 !.gitignore
 
 *.jar
