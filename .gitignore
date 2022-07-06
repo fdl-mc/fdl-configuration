@@ -9,6 +9,7 @@
 !start*
 !plugins.txt
 !setup.sh
+!server-icon.png
 !.gitignore
 
 *.jar
