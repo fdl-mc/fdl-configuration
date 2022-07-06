@@ -6,9 +6,10 @@
 !purpur.yml
 !server.properties
 !spigot.yml
-!start.sh
+!start*
 !plugins.txt
 !setup.sh
+!server-icon.png
 !.gitignore
 
 *.jar
