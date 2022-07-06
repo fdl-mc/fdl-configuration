@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo Download purpur
+echo Downloading Purpur ...
 wget "https://api.purpurmc.org/v2/purpur/1.18.2/latest/download" -O purpur.jar -o /dev/null
 
 #Download plugins
@@ -9,7 +9,7 @@ do
 	l="$(echo $i | cut -d'@' -f1)" 
 	f="$(echo $i | cut -d'@' -f2)"
 
-	echo Download $f
+	echo Downloading $f ...
 	wget "$l" -O "plugins/$f" -o /dev/null
 done
 
