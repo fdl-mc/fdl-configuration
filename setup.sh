@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 echo Download purpur
-wget "https://api.purpurmc.org/v2/purpur/1.18.1/latest/download" -O purpur.jar -o /dev/null
+wget "https://api.purpurmc.org/v2/purpur/1.18.2/latest/download" -O purpur.jar -o /dev/null
 
 #Download plugins
 for i in $(cat plugins.txt)
