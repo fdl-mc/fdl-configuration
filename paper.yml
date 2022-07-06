@@ -325,7 +325,7 @@ world-settings:
       wither_skull: 4
       area_effect_cloud: 8
     alt-item-despawn-rate:
-      enabled: true
+      enabled: false
       items:
         COBBLESTONE: 300
         NETHERRACK: 300
