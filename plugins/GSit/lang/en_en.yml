@@ -35,7 +35,7 @@ Messages:
   action-sit-kick-error: "[P]&c Someone is already sitting here!"
   action-sit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
 
-  action-playersit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
+  action-playersit-info: "&aUse your&6 Sneak&a Key to get up."
 
   action-pose-now-error: "[P]&c You can't pose right now!"
   action-pose-world-error: "[P]&c You can't pose in this world!"
