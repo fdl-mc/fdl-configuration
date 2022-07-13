@@ -11,6 +11,7 @@
 !setup.sh
 !server-icon.png
 !.gitignore
+!README.md
 
 *.jar
 *.db
