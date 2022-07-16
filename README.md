@@ -25,4 +25,4 @@
 <br>
 <br>
 
-### feel free to open an [issue](github.com/fdl-mc/fdl-configuration/issues) or a [pr](github.com/fdl-mc/fdl-configuration/pulls) if anything's wrong
+### feel free to open an [issue](https://github.com/fdl-mc/fdl-configuration/issues) or a [pr](https://github.com/fdl-mc/fdl-configuration/pulls) if anything's wrong

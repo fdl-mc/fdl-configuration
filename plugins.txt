@@ -6,6 +6,7 @@ https://pyt.igorek.dev/bin/plugins/s9/DeadChest.jar@DeadChest.jar
 https://pyt.igorek.dev/bin/plugins/s9/FastLogin.jar@FastLogin.jar
 https://pyt.igorek.dev/bin/plugins/s9/GSit.jar@GSit.jar
 https://pyt.igorek.dev/bin/plugins/s9/Pl3xMap.jar@Pl3xMap.jar
+https://pyt.igorek.dev/bin/plugins/s9/PlasmoVoice.jar@PlasmoVoice.jar
 https://pyt.igorek.dev/bin/plugins/s9/ProtocolLib.jar@ProtocolLib.jar
 https://pyt.igorek.dev/bin/plugins/s9/SkinsRestorer.jar@SkinsRestorer.jar
 https://pyt.igorek.dev/bin/plugins/s9/TAB.jar@TAB.jar
