@@ -3,14 +3,14 @@ config-version: '2.0'
 chats:
   local:
     enable: true
-    permissions: false
+    permission: false
     display-name: 'Local'
     format: '&r{prefix}&7{player}&r{suffix} &8› &r{message}'
     range: 100
 
   global:
     enable: true
-    permissions: false
+    permission: false
     display-name: 'Global'
     format: '&r[FDL]&r {prefix}&7{player}&r{suffix} &8› &r{message}'
     range: -2
